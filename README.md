@@ -3,9 +3,11 @@
 Olá, obrigado pela oportunidade de apresentar o meu trabalho.
 Um ponto de esclarecimento para este projeto, é que foi solicitado especificamente o número do NIS, porém em toda a documentação que encontrei este número apresentado como NIS, também é identificado como PIS/PASEP/NIT e a fórmula para seu cálculo é uma só, portanto foi utilizada neste projeto.
 
-## Referências
-    - [Previdência](http://sa.previdencia.gov.br/site/2015/07/rgrv_RegrasValidacao.pdf)
-    - [Ingracio Advocacia] (https://ingracio.adv.br/pis-nis-pasep-nit/)
+## Requerimentos:
+
+- Servidor MySQL local funcionando
+- Servidor PHP 7.x local funcionando
+- Aplicação descarregada diretamente na raiz do localhost
 
 ## Instructions
 
@@ -23,10 +25,10 @@ Um ponto de esclarecimento para este projeto, é que foi solicitado especificame
 - Há uma tela para teste de validação do NIS gerado pela aplicação. A validação executa dois procedimentos: testa os registros para considerá-los válidos e testa o índice de repetição de cada registro. É comum que para um número elevado de amostras e/ou em máquinas com ótima velocidade de processamento os números possam se repetir.
 - Para utilizar a tela de teste e validação basta informar quantos registros deseja gerar e clicar em GERAR. Em seguida, após a geração dos registros, clique em validar.
 
-## Requirementos:
+## Referências
+    - [Previdência](http://sa.previdencia.gov.br/site/2015/07/rgrv_RegrasValidacao.pdf)
+    - [Ingracio Advocacia] (https://ingracio.adv.br/pis-nis-pasep-nit/)
 
-- Servidor MySQL local funcionando
-- Servidor PHP 7.x local funcionando
-
+    
 Gratidão!
 Danniel C. Lucas
