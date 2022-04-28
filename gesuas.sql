@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 27-Abr-2022 às 03:12
+-- Generation Time: 27-Abr-2022 às 21:01
 -- Versão do servidor: 10.1.25-MariaDB
 -- PHP Version: 7.1.7
 
@@ -53,7 +53,8 @@ INSERT INTO `usernis` (`id`, `name`, `nis`) VALUES
 -- Indexes for table `usernis`
 --
 ALTER TABLE `usernis`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `nis` (`nis`);
 
 --
 -- AUTO_INCREMENT for dumped tables
