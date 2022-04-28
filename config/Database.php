@@ -3,8 +3,8 @@ class Database
 {
     const HOST = 'localhost';
     const DATABASE = 'gesuas';
-    const USER = 'root';
-    const PASSWORD = '#gig@phpMyadm';
+    const USER = '';
+    const PASSWORD = '';
 
     public static $connection;
 
