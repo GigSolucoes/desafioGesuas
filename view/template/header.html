@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Gesuas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Gesuas</h3>
+                <small>Desafio de Desenvolvimento</small>
+            </div>
+            <ul class="list-unstyled components pl-2">
+                <li>
+                    <a href="index.php?usernis=create">Cadastro</a>
+                </li>
+                <li>
+                    <a href="index.php?usernis=search">Pesquisa</a>
+                </li>
+                <li>
+                    <a href="index.php?usernis=index">Lista</a>
+                </li>
+                <li>
+                    <a href="index.php?usernis=test">Teste e Validação</a>
+                </li>
+            </ul>
+            <div class="sidebar-header">
+                <small>Por Danniel Cardoso Lucas</small>
+            </div>
+        </nav>
+
+        <div id="content">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light m-0">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-light">
+                        <i class="material-icons" data-toggle="tooltip" title="Edit">menu</i>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="nav navbar-nav ml-auto" id="navbarSupportedContent">
+                        <a class="navbar-brand" href="/desafioGesuas">
+                            <img src="./assets/images/logo-gesuas.png" id="header-logo" alt="">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <main>
